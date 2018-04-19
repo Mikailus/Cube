@@ -28,6 +28,7 @@ function init () {
   document.body.addEventListener('mousedown', startMovingByMouse);
   document.body.addEventListener('touchstart', startMovingByMouse);
   document.body.addEventListener('touchmove', moveCubeByMouse);
+  document.body.addEventListener('touchend', stopMovingByMouse);
   document.body.addEventListener('dragstart', function (e) {
     e.preventDefault();
   })
