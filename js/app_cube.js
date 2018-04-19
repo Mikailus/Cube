@@ -8,7 +8,7 @@ let lastPos = {};
 let sides = [];
 let ifRotate=false;
 let ifTranslate = false;
-let scaleCube = 1;
+let scaleCube = 0.7;
 let moveX;
 let moveY;
 function init () {
